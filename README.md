@@ -39,6 +39,9 @@ Volumetric lights will respect standard light's parameters like color, intensity
 
 Several sample scenes are part of this project.
 
+#### Building a standalone player
+**_IMPORTANT_** - Standalone player will work only if all shaders are included in build! All shaders must be added into "Always Included Shaders" in ProjectSettings/Graphics.
+
 #### Example scene with different parameters
 * Low/High Scattering and Extinction parameters
 ![alt tag](https://agu1ya-dm2305.files.1drv.com/y3mgo5ud5huq-SUjw4z8gGjB9JBoWBhIerh46Oh18e6GVoy7lR6vffSZeK50e7FnTINV04B20jmSGiyRrodTTVgYGkZ00goIWjvKMaxMQS9eygkKSKansmWCHR0lzJ-v0Rag8-_h4-iJZjD304lRqSmgHT7KAZpNJIeRnihNJ4Y03k?width=2338&height=650&cropmode=none)
@@ -87,3 +90,8 @@ Volumetric fog can be rendered in smaller resolution as an optimization. Set ren
 * Add temporal filter to improve image quality and stability in motion. Change sampling pattern every frame to get more ray marching steps at no additional cost (works only with temporal filter)
 * Bilateral blur and upscale can be improved
 * I didn't try to optimize the shaders, there is likely room for improvement.
+ 
+### Donations
+I've been asked about donation button several times now. I don't feel very comfortable about it. I don't need the money. I have a well paid job. It could also give the impression that I would use the money for further development. But that is certainly not the case. 
+
+But if you really like it and you want to brighten my day then you can always buy me a little gift. Send me [Amazon](https://www.amazon.com/Amazon-Amazon-com-eGift-Cards/dp/BT00DC6QU4) or [Steam](https://www.paypal-gifts.com/uk/brands/steam-digital-wallet-code.html) gift card and I'll buy myself something shiny. You can find my email in my profile. 
